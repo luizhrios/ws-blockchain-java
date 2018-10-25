@@ -18,5 +18,7 @@ public class WsBlockchainJavaApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		Application app = new Application();
 		app.showWelcomeMsg();
+		app.startBlockchain();
+		app.printBlockchain();
 	}
 }
